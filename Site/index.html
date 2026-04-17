@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Titúlo do site</title>
 </head>
 <body>
@@ -13,14 +14,18 @@
             <h1>Notas</h1>
         </header>
 
-        <section>
+        <section id="secao">
             <form id="formulario">
                 <input type="text" id="nome" placeholder="Digite seu nome">
                 <input type="number" id="Nota" placeholder="Digite sua Nota do primeiro bimestre">
                 <input type="number" id="Nota2" placeholder="Digite sua Nota do segundo bimestre">
                 <input type="number" id="Nota3" placeholder="Digite sua Nota do terceiro bismestre">
+                
+                <div id="B">
+                    <button type="submit">Enviar</button>
+                </div>
 
-                <button type="submit">Enviar</button>
+                
                     <p id="resultado"></p>
             </form>
         </section>

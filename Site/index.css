@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: darkslategray;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+#B{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    background-color: rgb(80, 124, 124);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
