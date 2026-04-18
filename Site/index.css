@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    height: 100vh;
+}
+
 h1{
     color: darkslategray;
     margin: 15px;
@@ -30,4 +40,11 @@ button{
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }

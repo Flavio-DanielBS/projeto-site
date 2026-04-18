@@ -41,3 +41,25 @@ document.getElementById("formulario").addEventListener("submit", function(e)
         nota = Number(nota);
 
 })
+ let a = document.getElementById("b1");
+ a.addEventListener("click", butao);
+ a.addEventListener("mouseenter", entrar);
+ a.addEventListener("mouseleave", saiu);
+function butao(){
+    a.innerText = "Clicou!"
+    return;
+}
+
+function entrar(){
+    a.innerText = "Entrou!"
+    a.style.background = "lightgray";
+    a.style.color = "black";
+    return;    
+}
+
+function saiu(){
+    a.innerText = "Enviar"
+    a.style.background = "rgb(80, 124, 124)";
+    a.style.color = "lightgray";
+    return;
+}
