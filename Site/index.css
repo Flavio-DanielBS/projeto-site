@@ -23,15 +23,27 @@ h1{
 form{
     place-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 
-#B{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#caixas-de-texto{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
 
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#B{
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    gap: 15px;
+    width: 100vh;
 }
 
 button{
@@ -39,12 +51,12 @@ button{
     color: white;
     border: none;
     padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
     cursor: pointer;
 }
 
 #resultado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    grid-column: 1 / -1;
+    color:rgb(32, 51, 51);
 }

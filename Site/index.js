@@ -46,12 +46,12 @@ document.getElementById("formulario").addEventListener("submit", function(e)
  a.addEventListener("mouseenter", entrar);
  a.addEventListener("mouseleave", saiu);
 function butao(){
-    a.innerText = "Clicou!"
+    a.innerText = "Enviado!"
     return;
 }
 
 function entrar(){
-    a.innerText = "Entrou!"
+    a.innerText = "Enviar"
     a.style.background = "lightgray";
     a.style.color = "black";
     return;    
